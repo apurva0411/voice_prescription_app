@@ -16,6 +16,7 @@ module.exports = async function (options) {
         subject: options.subject,
         html: options.html
     };
+    
     try {
         await mailTransporter.sendMail(mailDetails);
         console.log("Email was send")
