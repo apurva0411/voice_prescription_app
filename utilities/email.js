@@ -6,7 +6,7 @@ module.exports = async function (options) {
         service: "gmail",
         host: "smtp.gmail.com",
         auth: {
-            user: "simranaggarwal738@gmail.com",
+            user: "twinklestar039@gmail.com",
             pass: appPassword
         }
     });
